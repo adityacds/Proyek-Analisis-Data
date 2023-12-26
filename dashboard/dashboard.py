@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-data = pd.read_csv("./hour.csv") 
+data = pd.read_csv("./dataset/hour.csv") 
 
 st.title("Bike Sharing Data Visualization")
 
